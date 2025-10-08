@@ -3,6 +3,7 @@ public class TheTwelveDaysOfChristmas {
     for(int i = 1; i <= 12; i++) {
       printFirstLine(i);
       printVerse(i);
+      System.out.print(i != 12 ? "\n" : "");
     }
   }
 
